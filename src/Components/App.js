@@ -7,9 +7,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Milestone 2</p>
-        <Display />
-        <ButtonPanel />
+        <div className="calc-body">
+          <Display />
+          <ButtonPanel />
+        </div>
       </header>
     </div>
   );
