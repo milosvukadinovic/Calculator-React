@@ -4,33 +4,33 @@ import Button from './Button';
 const ButtonPanel = () => (
   <div>
     <div className="grid-container group-1">
-      <Button name="AC" size="false" color="#E0E0E0" />
-      <Button name="+/-" size="false" color="#E0E0E0" />
-      <Button name="%" size="false" color="#E0E0E0" />
-      <Button name="+" size="false" color="#F5913E" />
+      <Button name="AC" />
+      <Button name="+/-" />
+      <Button name="%" />
+      <Button name="+" color="#F5913E" />
     </div>
     <div className="grid-container group-2">
-      <Button name="7" size="false" color="#E0E0E0" />
-      <Button name="8" size="false" color="#E0E0E0" />
-      <Button name="9" size="false" color="#E0E0E0" />
-      <Button name="X" size="false" color="#F5913E" />
+      <Button name="7" />
+      <Button name="8" />
+      <Button name="9" />
+      <Button name="X" color="#F5913E" />
     </div>
     <div className="grid-container group-3">
-      <Button name="4" size="false" color="#E0E0E0" />
-      <Button name="5" size="false" color="#E0E0E0" />
-      <Button name="6" size="false" color="#E0E0E0" />
-      <Button name="-" size="false" color="#F5913E" />
+      <Button name="4" />
+      <Button name="5" />
+      <Button name="6" />
+      <Button name="-" color="#F5913E" />
     </div>
     <div className="grid-container group-4">
-      <Button name="1" size="false" color="#E0E0E0" />
-      <Button name="2" size="false" color="#E0E0E0" />
-      <Button name="3" size="false" color="#E0E0E0" />
-      <Button name="+" size="false" color="#F5913E" />
+      <Button name="1" />
+      <Button name="2" />
+      <Button name="3" />
+      <Button name="+" color="#F5913E" />
     </div>
     <div className="grid-container group-5">
-      <Button name="0" size="true" color="#E0E0E0" />
-      <Button name="." size="false" color="#E0E0E0" />
-      <Button name="=" size="false" color="#F5913E" />
+      <Button name="0" size="50%" />
+      <Button name="." />
+      <Button name="=" color="#F5913E" />
     </div>
   </div>
 );

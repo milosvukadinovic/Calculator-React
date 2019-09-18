@@ -2,11 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({ name, size, color }) => {
-  const isWide = JSON.parse(size) ? '50%' : '25%';
-
   const style = {
     background: color,
-    width: isWide,
+    width: size,
     borderRight: '1px solid #fff',
 
   };
@@ -20,9 +18,10 @@ const Button = ({ name, size, color }) => {
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
-  size: PropTypes.string.isRequired,
-  color: PropTypes.string.isRequired,
+  size: PropTypes.string,
+  color: PropTypes.string,
 };
+Button.defaultProps = { color: '#E0E0E0', size: '25%' };
 
 
 export default Button;
