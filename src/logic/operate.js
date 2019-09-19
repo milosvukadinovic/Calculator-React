@@ -1,4 +1,5 @@
 /* eslint-disable no-alert */
+/* eslint import/no-unresolved: [2, { ignore: ['\.img$'] }] */
 import Big from 'big.js';
 
 const operate = (numberA, numberB, operation) => {
