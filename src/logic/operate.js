@@ -1,6 +1,7 @@
-/* eslint-disable no-alert */
-/* eslint import/no-unresolved: [2, { ignore: ['\.img$'] }] */
+/* eslint-disable */
 import Big from 'big.js';
+/* eslint-enable */
+/* eslint-disable no-alert */
 
 const operate = (numberA, numberB, operation) => {
   const a = new Big(numberA);
