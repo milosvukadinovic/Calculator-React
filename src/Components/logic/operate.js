@@ -8,8 +8,7 @@ const operate = (numberA, numberB, operation) => {
   const b = new Big(numberB);
   // eslint-disable-next-line eqeqeq
   if (b == 0 && operation === '/') {
-    window.alert('Can`t divide with zero');
-    return false;
+    return "Error";
   }
   switch (operation) {
     case '+':
@@ -23,8 +22,7 @@ const operate = (numberA, numberB, operation) => {
     case '%':
       return a.div(b).toString();
     default:
-      window.alert('Wrong operation');
+      return "Error";
   }
-  return false;
 };
 export default operate;
