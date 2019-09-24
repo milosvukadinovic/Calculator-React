@@ -11,7 +11,6 @@ class App extends React.Component {
   state={
     total: null,
     next: null,
-    operation: null,
     error: null,
   }
 
