@@ -8,7 +8,7 @@ const buttonPanel = ({ clickHandler }) => (
       <Button name="AC" clickHandler={clickHandler} />
       <Button name="+/-" clickHandler={clickHandler} />
       <Button name="%" clickHandler={clickHandler} />
-      <Button name="+" color="#F5913E" clickHandler={clickHandler} />
+      <Button name="/" color="#F5913E" clickHandler={clickHandler} />
     </div>
     <div className="grid-container group-2">
       <Button name="7" clickHandler={clickHandler} />
