@@ -6,7 +6,11 @@ import Big from 'big.js';
 const operate = (numberA, numberB, operation) => {
   const a = new Big(numberA);
   const b = new Big(numberB);
-
+  // eslint-disable-next-line eqeqeq
+  if (b == 0 && operation === '/') {
+    window.alert('Can`t divide with zero');
+    return false;
+  }
   switch (operation) {
     case '+':
       return a.plus(b).toString();
