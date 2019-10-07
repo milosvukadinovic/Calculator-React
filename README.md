@@ -1,6 +1,6 @@
-## React calculator
+# Calculator - React
 
-This is a React Calculator project.
+Calculator created for practice using React framework.
 
 ## Requirements
 
@@ -18,9 +18,9 @@ This is a React Calculator project.
 
 - ES6
 
-## Installation
+## Installing
 
-Run `npm install`
+- npm install
 
 ## Available Scripts
 
@@ -32,11 +32,10 @@ Run `npm install`
 
 - `npm run eject`
 
-## Live version - hosted on Heroku:
-
-[react-calculator live version](https://calculator-react-milos.herokuapp.com//)
-
-
-## Author
+## Authors
 
 - [Milos Vukadinovic](https://github.com/milosvukadinovic)
+
+## Acknowledgments
+
+* [The Odin Project - Calculator](https://www.theodinproject.com/courses/web-development-101/lessons/calculator)
