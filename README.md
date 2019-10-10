@@ -1,6 +1,8 @@
-# Calculator - React
+# Calculator - React - [Live](https://calculator-react-milos.herokuapp.com//)
 
 Calculator created for practice using React framework.
+
+![Alt text](/src/assets/ss.jpg)
 
 ## Requirements
 
